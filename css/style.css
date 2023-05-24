@@ -60,7 +60,7 @@ main .card{
 main .card:hover{
     transform: scale(1.05);
     transition: ease-in-out 0.2s;
-    background-color: #96d9d6;
+    background-color: #b8f0f0;
 }
 main .card .nome{
     border: solid 0.15rem #333333;
@@ -131,9 +131,10 @@ main .card .elementos{
 	border-radius: 10px;
 	border: 3px solid #ffffff;
 }
+
 /* rodape */
 footer{
     color: white;
-    margin: 1rem;
+    margin: 1.5rem;
     text-align: center;
 }
