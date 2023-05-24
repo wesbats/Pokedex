@@ -1,0 +1,139 @@
+/* Reset de CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+button{
+    border: 0px;
+    background-color: unset;
+}
+a{
+    text-decoration: none;
+}
+
+/* Estilização */
+body{
+    font-family: 'Poppins', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #a09d9dd2;
+    color: #333333;
+}
+
+/* navbar */
+nav{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+nav .ico{
+    width: 3rem;
+    cursor: pointer;
+    transition: ease-in-out 0.1s;
+}
+nav .ico:hover{
+    transform: scale(1.1);
+}
+
+/* corpo */
+main ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.2rem;
+}
+main .card{
+    width: 15rem;
+    height: 23rem;
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d8e3ec;
+    border-radius: 1rem;
+}
+main .card:hover{
+    transform: scale(1.05);
+    transition: ease-in-out 0.2s;
+    background-color: #96d9d6;
+}
+main .card .nome{
+    border: solid 0.15rem #333333;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    font-size: 1.7rem;
+}
+main .card img{
+    height: 7rem;
+    margin: 4.5px;
+}
+main .card .desc{
+    overflow-y: scroll;
+    height: 7.5rem;
+}
+main .card .elementos{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.2rem;
+    margin: auto;
+}
+.fogo{
+    background-color: #ed5564;
+    padding: 0.2rem 1rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: white;
+}
+.voador{
+    background-color: #97d9e9ab;
+    padding: 0.2rem 1rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: white;
+}
+.agua{
+    background-color: #46b0f7;
+    padding: 0.2rem 1rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: white;
+}
+.planta{
+    background-color: #3f913f;
+    padding: 0.2rem 1rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: white;
+}
+.veneno{
+    background-color: #9f3bb8;
+    padding: 0.2rem 1rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+/* scroll */
+*::-webkit-scrollbar {
+	width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+	background: #f1e9e9;
+}
+*::-webkit-scrollbar-thumb {
+	background-color: #ed5564;
+	border-radius: 10px;
+	border: 3px solid #ffffff;
+}
+/* rodape */
+footer{
+    color: white;
+    margin: 1rem;
+    text-align: center;
+}
