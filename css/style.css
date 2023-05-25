@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 ul{
     list-style: none;
@@ -10,9 +11,6 @@ ul{
 button{
     border: 0px;
     background-color: unset;
-}
-a{
-    text-decoration: none;
 }
 
 /* Estilização */
@@ -79,10 +77,10 @@ main .card:hover{
     background-color: #b8f0f0;
 }
 main .card .nome{
-    border: solid 0.15rem #333333;
-    border-radius: 1rem;
-    padding: 0.3rem;
-    font-size: 1.7rem;
+    border: solid 0.1rem #333333;
+    border-radius: 0.8rem;
+    padding: 0.4rem 0.5rem;
+    font-size: 1.2rem;
 }
 main .card img{
     height: 7rem;
@@ -91,6 +89,8 @@ main .card img{
 main .card .desc{
     overflow-y: scroll;
     height: 7.5rem;
+    padding-right: 0.5rem;
+    font-size: 0.9rem;
 }
 main .card .elementos{
     display: flex;
@@ -150,7 +150,9 @@ main .card .elementos{
 
 /* rodape */
 footer{
-    color: white;
     margin: 1.5rem;
     text-align: center;
+}
+footer a{
+    color: white;
 }
