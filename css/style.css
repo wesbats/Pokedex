@@ -18,7 +18,7 @@ a{
 /* Estilização */
 body{
     font-family: 'Poppins', sans-serif;
-    max-width: 1280px;
+    max-width: 1300px;
     margin: 0 auto;
     background-color: #a09d9dd2;
     color: #333333;
@@ -39,7 +39,7 @@ body{
 }
 /* navbar */
 nav{
-    padding: 0.5rem;
+    padding: 0.5rem 0.3rem;
     display: flex;
     justify-content: space-between;
 }
@@ -49,10 +49,13 @@ nav .ico{
     transition: ease-in-out 0.1s;
 }
 nav .ico:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 /* corpo */
+main{
+    padding: 0 0.5rem;
+}
 main ul{
     display: flex;
     flex-direction: row;
@@ -71,7 +74,7 @@ main .card{
     border-radius: 1rem;
 }
 main .card:hover{
-    transform: scale(1.05);
+    transform: scale(1.01);
     transition: ease-in-out 0.2s;
     background-color: #b8f0f0;
 }
