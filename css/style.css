@@ -22,8 +22,21 @@ body{
     margin: 0 auto;
     background-color: #a09d9dd2;
     color: #333333;
+    transition: ease-in-out 0.1s;
 }
-
+.dark{
+    background-color: #333333;
+    color: #ffffff;
+}
+.dark .card{
+    background-color: #7ca9cf;
+}
+.dark .card:hover{
+    background-color: #457092;
+}
+.dark .card .nome{
+    border-color: #ffffff;
+}
 /* navbar */
 nav{
     padding: 0.5rem;
@@ -122,9 +135,9 @@ main .card .elementos{
 *::-webkit-scrollbar {
 	width: 12px;
 }
-
 *::-webkit-scrollbar-track {
 	background: #f1e9e9;
+    border-radius: 10px;
 }
 *::-webkit-scrollbar-thumb {
 	background-color: #ed5564;
